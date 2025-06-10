@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'maestro-cyan': 'hsl(var(--maestro-cyan))',
+				'maestro-dark-blue': 'hsl(var(--maestro-dark-blue))',
+				'maestro-blue': 'hsl(var(--maestro-blue))',
+				'maestro-white': 'hsl(var(--maestro-white))',
+				'maestro-light-gray': 'hsl(var(--maestro-light-gray))',
+				'maestro-medium-gray': 'hsl(var(--maestro-medium-gray))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
